@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+  <link rel="stylesheet" href="myprofile.css">
+
+<body>
+
+<div class="topnav">
+  <a href="myprofile1.jsp" target="_parent">My Profile</a>
+  <a href="#" class="active" >E-Services</a>
+  <a href="SelectAccount.jsp" target="_parent" >Fund Transfer</a>
+   <a href="logout.jsp" target="_parent">Logout</a>
+</div>
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>

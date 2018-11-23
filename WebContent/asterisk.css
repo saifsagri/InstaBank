@@ -1,0 +1,4 @@
+.form-group.required.control-able:after{
+	content:"*";
+	color:red;
+}
